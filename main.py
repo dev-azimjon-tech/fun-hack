@@ -1,5 +1,5 @@
-import telebot
-from telebot import types
+import telebot #type:ignore
+from telebot import types #type:ignore
 
 TOKEN = "8004664022:AAHTLTQ9A7XpghKZLhoy-s61eHZAJn5UR30"
 bot = telebot.TeleBot(TOKEN)
